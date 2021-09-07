@@ -109,7 +109,7 @@ export class PipelineRunner {
             },
             sourceBranch: sourceBranch,
             sourceVersion: sourceVersion,
-            reason: BuildInterfaces.BuildReason.Triggered
+            reason: BuildInterfaces.BuildReason.PullRequest
         } as BuildInterfaces.Build;
 
         log.LogPipelineTriggerInput(build);
