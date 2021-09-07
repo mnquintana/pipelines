@@ -7,10 +7,12 @@
     "@actions/core": "^1.2.6"
   },
   "devDependencies": {
-    "azure-devops-node-api": "^9.0.1"
+    "@types/node": "^12.12.6",
+    "typescript": "^3.5.2",
+    "azure-devops-node-api": "11.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Nishu Bansal",
   "license": "MIT"
